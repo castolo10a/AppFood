@@ -1,0 +1,89 @@
+.cardsContainer, .divPaginado {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.pages{
+  padding: 0;
+}
+@media only screen and (max-width: 600px) {
+    .cardsContainer {
+      font-size: 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      align-content: center;
+      justify-content: center;
+    }
+    .divPaginado{
+      font-size: 1rem;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      align-content: center;
+      justify-content: center;
+    }
+}
+
+.divSearch{
+  padding: 2%;
+  display: flex;
+  justify-content: center;
+}
+
+.divFiltersOrder {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.selectFilter, .selectOrder{
+  font-size: 1.2rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: #f2edd7;
+  background-color: #88070B;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5em 1em;
+  margin-right: 1em;
+  margin-left: 0.3em;
+  cursor: pointer;
+}
+
+.selectOrder:hover, .selectFilter:hover {
+  background-color: #3d0002;
+}
+
+@media only screen and (max-width: 600px) {
+  .divFiltersOrder {
+      flex-direction: row;
+      align-items: flex-start;
+  }
+  
+  .selectFilter, .selectOrder {
+      font-size: 1rem;
+      margin-top: 10px;
+      width: 80%;
+      margin-right: 0;
+      margin-left: 0;
+  }
+}
+.notFood{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 7rem;
+}
+@media only screen and (max-width: 600px) {
+ .notFood{
+  font-size: 2rem;
+ }
+}
+
+
+
+

@@ -1,0 +1,90 @@
+.mainContainer, form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    background-color:#88070B;
+    border-radius: 10px;
+  }
+form div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+  .title{
+    font-size: 5rem;
+    color: white;
+  }
+  .steps{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+  }
+  .steps input{
+    margin-right: 5px;
+  }
+  
+  .mainContainer .inputText,
+  .mainContainer .select{
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 80%;
+    border-radius: 5px;
+    border: none;
+    background-color: #3d0002;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .inputCheck{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .inputCheck input{
+    margin-right: 10px;
+  }
+  
+    .labels {
+    margin-bottom: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+  }
+  
+   .button{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #c53539;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .mainContainer .inputText,
+    .mainContainer .select,
+    .mainContainer .labels,
+    .mainContainer .button {
+      font-size: 1rem;
+    }
+    .mainContainer{
+        width: 98%;
+    }
+    .title{
+        font-size: 3rem;
+    }
+  }

@@ -1,0 +1,48 @@
+.mainContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    background-color: #ece4c1a4;
+    border-bottom: 2px solid #88070B;
+    border-radius: 10px;
+}
+
+.navigate {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 60%;
+}
+
+.navigate button,
+.logout button {
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #f2edd7;
+    background-color: #88070B;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    margin-right: 1em;
+}
+
+.navigate button:hover,
+.logout button:hover {
+    background-color: #3d0002;
+}
+
+@media (max-width: 548px) {
+    .mainContainer {
+        align-items: center;
+        width: 90%;
+    }
+    
+    .navigate button,
+    .logout button {
+        font-size: 1rem;
+        padding: 0.4em 0.8em;
+    }
+}

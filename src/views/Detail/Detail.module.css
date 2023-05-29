@@ -1,0 +1,45 @@
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.titleFood {
+    text-align: center;
+    color: #88070B;
+}
+
+.imgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.imgFood{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.informationFood {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.informationFood h3{
+    color: #88070B;
+}
+.back{
+    padding: 10px;
+    align-self: flex-start;
+}
+
+
+

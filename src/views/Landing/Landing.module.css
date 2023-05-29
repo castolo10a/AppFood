@@ -1,0 +1,78 @@
+.mainContainer {
+    background-image: url('./Landing.jpg');
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.spa {
+    font-size: 6vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    color:#FFCE13;
+}
+
+.slogan {
+    font-size: 4vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #88070B;
+    background-color: #ece4c1a4;
+    border-radius: 10px;
+    text-align: center;
+    padding: 1em;
+    margin-bottom: 5%;
+}
+
+@media (min-width: 768px) {
+    .spa {
+        font-size: 3rem;
+        margin-top: 8%;
+        margin-bottom: 2%;
+    }
+
+    .slogan {
+        font-size: 3rem;
+        padding: 2em;
+        margin-bottom: 8%;
+    }
+}
+
+button {
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #f2edd7;
+    background-color: #88070B;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5em 1em ;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #3d0002;
+}
+
+
+
+
+
+
+
