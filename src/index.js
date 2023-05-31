@@ -7,7 +7,7 @@ import App from './App';
 import axios from 'axios';
 
 // axios.defaults.baseURL = 'http://localhost:3001';
-axios.defaults.baseURL = 'https://appfoodback-production.up.railway.app/';
+axios.defaults.baseURL = process.env.REACT_APP_DEPLOY;
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
