@@ -134,6 +134,14 @@ const Form = () => {
         .then(res => alert('Recipe created successfully'))
         .catch(error => alert('Mandatory data is missing'))
         setAdmitido(false)
+        setForm({
+            title: '',
+            summary: '',
+            healthScore: 1,
+            stepByStep: [],
+            image: '' || defaultImage,
+            Diets: []
+        })
       };
 
     return(
